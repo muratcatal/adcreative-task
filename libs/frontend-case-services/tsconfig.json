@@ -4,20 +4,13 @@
     "allowJs": false,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "jsxImportSource": "@emotion/react"
+    "strict": true
   },
   "files": [],
   "include": [],
   "references": [
     {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
-    },
-    {
-      "path": "./tsconfig.storybook.json"
+      "path": "./tsconfig.lib.json"
     }
   ],
   "extends": "../../tsconfig.base.json"

@@ -7,7 +7,7 @@ module.exports = {
     path: join(__dirname, '../../dist/apps/frontend-case'),
   },
   devServer: {
-    port: 4200,
+    port: 3001,
   },
   plugins: [
     new NxWebpackPlugin({

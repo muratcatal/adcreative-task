@@ -1,16 +1,15 @@
-import styled from '@emotion/styled';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { RickAndMorty } from './rick-and-morty';
 
-import NxWelcome from './nx-welcome';
+const queryClient = new QueryClient();
 
-const StyledApp = styled.div`
-  // Your style here
-`;
-
-export function App() {
+function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="frontend-case" />
-    </StyledApp>
+    <QueryClientProvider client={queryClient}>
+      <RickAndMorty />
+      <ReactQueryDevtools initialIsOpen={false} />
+    </QueryClientProvider>
   );
 }
 

@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@adcreative/core": ["libs/core/src/index.ts"],
+      "@adcreative/frontend-case-service": [
+        "libs/frontend-case-services/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
