@@ -1,13 +1,5 @@
 ## FRONTEND TASK BY MURAT ÇATAL
 
-### ONLINE DEMO
-
-You can view the online demo [here](https://adcreative-task-8yv1.vercel.app/)
-
-Storybook can be viewed [here](https://adcreative-task-storybook.vercel.app/)
-
-You can view project graph [here](https://adcreative-task-8yv1.vercel.app/assets/graph.png). The graph is generated using Nx.dev framework and shows the dependencies between the libraries and the frontend application. It is important not to have circular dependencies between the libraries which Nx framework helps to prevent.
-
 ### INSTALLATION
 
 > This application needs node version 20.0.0 or higher to run. You can install node from [here](https://nodejs.org/en/)
